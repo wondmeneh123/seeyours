@@ -1,0 +1,133 @@
+.inputTaker {
+  text-align: center;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.inputTaker > input {
+  width: auto;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.btnWrapper {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+}
+.btnWrapper > button {
+  background-color: green;
+}
+.logo {
+  text-align: center;
+}
+.ss {
+  color: greenyellow;
+  margin-bottom: 0px;
+}
+.videoss {
+  width: 100vw;
+  height: 100vh;
+}
+
+.videoss > div > {
+  object-fit: contain;
+}
+.videoss > div > video {
+  object-fit: contain !important;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1200px; /* Set maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding for spacing */
+}
+
+.grid-container {
+  display: grid !important;
+  width: 100%;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center; /* Center the grid items horizontally */
+}
+.wrp {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.btn-grp {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+.btn-grp > button {
+  background-color: green;
+}
+.parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.vid {
+  width: 100%; /* Ensure the video fills its container */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Rounded corners for video items */
+  overflow: hidden; /* Ensure the video doesn't overflow its container */
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.links > a {
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(68, 68, 180);
+  color: white;
+  font-size: 30px;
+}
+.controls {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+}
+.warn {
+  background: greenyellow;
+  color: black;
+}
+
+.header {
+  margin-top: -10px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.header > .pfp {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  overflow: hidden;
+  background-color: aquamarine;
+}
